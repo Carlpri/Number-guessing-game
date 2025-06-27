@@ -1,0 +1,123 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.new-game-btn {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.guess-btn {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.guess-btn:hover {
+  background-color: #05700b;
+}
+.guess-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.guess-btn:active {
+  background-color: #3e8e41;
+}
+
+.game-header {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.game-header h2 {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.trials-count-game-guide {
+  margin: 0;
+  color: whitesmoke;
+}
+
+.game-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 420px;
+}
+
+.input {
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  border: 2px solid #4caf50;
+  color: #05700b;
+  border-radius: 5px;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #05700b;
+}
+.game-result {
+  margin-top: 2rem;
+  color: whitesmoke;
+}
+.game-result h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.game-result p {
+  font-size: 1.5rem;
+}
+.game-result button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
