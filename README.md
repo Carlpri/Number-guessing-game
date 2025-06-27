@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔢 Number Guessing Game
 
 This is a simple React-based Number Guessing Game where players attempt to guess a randomly generated number between 1 and 100. The game gives users 10 trials and offers real-time feedback after each guess.
@@ -45,3 +46,4 @@ npm run dev
 
 📜 License
 This project is licensed under the MIT License.
+=======
