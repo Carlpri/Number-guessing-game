@@ -38,3 +38,11 @@ npm install
 # Run the app
 npm run dev
 ```
+
+📸 Screenshots
+![Screenshot](./background.png)
+
+
+📜 License
+This project is licensed under the MIT License.
+
