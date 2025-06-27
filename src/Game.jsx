@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import "./App.css";
 
 function generateSecretNumber() {
-  return Math.trunc(Math.random() * 100) + 1;
+  return Math.floor(Math.random() * 100) + 1;
 }
 
 function gameReducer(state, action) {
@@ -14,7 +14,7 @@ function gameReducer(state, action) {
       guessBtnDisabled: false,
       feedback: "Secret number generated, try guessing it!",
       numTrials: 10,
-      secretNumber: generateSecretNumber,
+      secretNumber: generateSecretNumber(),
       playerGuess: "",
     };
   }
