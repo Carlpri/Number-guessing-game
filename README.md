@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🔢 Number Guessing Game
 
 This is a simple React-based Number Guessing Game where players attempt to guess a randomly generated number between 1 and 100. The game gives users 10 trials and offers real-time feedback after each guess.
@@ -7,7 +6,7 @@ This is a simple React-based Number Guessing Game where players attempt to guess
 
 - Random number generation between 1 and 100
 - 10 trials per game
-- Real-time feedback ("Too high", "Too low", "Correct")
+- Real-time feedback ("Number is too high", "Number is too low", "You won!")
 - Input disabled after winning or losing
 - Option to start a new game
 - State managed entirely using `useReducer` (no `useState` used)
