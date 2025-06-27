@@ -43,6 +43,5 @@ npm run dev
 ![Screenshot](./public/screenshot.png)
 
 
-📜 License
-This project is licensed under the MIT License.
+
 =======
